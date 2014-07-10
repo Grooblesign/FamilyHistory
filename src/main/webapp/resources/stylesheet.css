@@ -1,0 +1,33 @@
+@CHARSET "ISO-8859-1";
+body {
+	background: #ffffff;
+	color: #000000;
+	font-family: consolas, arial;
+}
+a {
+	color: #000000;
+}
+table, .letterCell {
+	border-style: solid;
+	border-color: #000000;
+	border-collapse: collapse;
+	cursor: pointer;
+}
+th, .header, .selectedLetterCell {
+	background: #cccccc;
+	font-weight: bold;
+	cursor: pointer;
+}
+td, th {
+	border-style: solid;
+	border-width: thin;
+	padding-left: 1em;
+	padding-right: 1em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+.gridbutton {
+	color: #000000;
+	text-decoration: underline;
+	cursor: pointer;
+}
